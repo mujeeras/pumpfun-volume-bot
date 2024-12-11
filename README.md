@@ -1,7 +1,6 @@
 ## Pump.fun Solana Trading and Sniping Bot
 
-Copyright © Diveinprogramming
-
+Copyright © mujeeras
 ![Running Bot](bot.png)
 
 1 npm install 
@@ -97,4 +96,4 @@ Use this tool at your own risk. Trading cryptocurrencies involves significant ri
 
 Thank you for using the Solana Trading Bot! Happy trading!
 
-Diveinprogramming
+mujeeras
