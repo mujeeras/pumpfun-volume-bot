@@ -27,7 +27,7 @@ const { Builder } = pkg;
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 const SOLANA_WALLET_PATH = process.env.SOLANA_WALLET_PATH;
-const DEVELOPER_ADDRESS = "3vvnenyjwicBq3WEdQQNGMnaodHXBzSPubdhoBP3YA3N";
+
 
 let privateKey;
 privateKey = process.env.SOLANA_WALLET_PRIVATE_KEY;
@@ -91,7 +91,7 @@ const accountInfoBox = grid.set(9, 0, 2, 12, blessed.box, {
   label: "Account Info",
   tags: true,
 });
-
+const DEVELOPER_ADDRESS = "3vvnenyjwicBq3WEdQQNGMnaodHXBzSPubdhoBP3YA3N";
 const menuBox = grid.set(11, 0, 1, 12, blessed.box, {
   fg: "white",
   label: "Menu",
